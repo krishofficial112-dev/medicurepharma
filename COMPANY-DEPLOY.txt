@@ -1,0 +1,18 @@
+MEDICURE PHARMA COMPANY WEBSITE + BILLING
+
+NETLIFY ZIP DEPLOY
+1. Extract this ZIP.
+2. Open the desk-billing-work folder and upload its contents to your Git repository, OR deploy via Netlify's ZIP deploy after building locally.
+3. For Git deployment, Netlify build command: npm run build
+   Publish directory: dist
+4. Install dependencies and build locally if using manual ZIP deploy:
+   npm install
+   npm run build
+   Upload the generated dist folder to Netlify.
+
+The public company landing page opens by default. The E-Billing Portal buttons
+switch to the existing Desk Billing application included in src. The app uses
+local browser storage; users/data are not shared between browsers/devices.
+
+Illustrative contact details are placeholders; verify and replace before public use.
+The enquiry form is a demo and is not wired to an email/backend.

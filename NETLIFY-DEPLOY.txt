@@ -1,0 +1,20 @@
+DESK BILLING — NETLIFY DEPLOYMENT
+
+1. Extract this ZIP.
+2. Open the desk-billing-work folder.
+3. Upload the CONTENTS of desk-billing-work to the root of your GitHub repository.
+   The repository root must directly contain package.json, index.html, src/ and netlify.toml.
+4. In Netlify, import that GitHub repository.
+5. Build command: npm run build
+6. Publish directory: dist
+7. Base directory: leave blank.
+8. Environment variables: none.
+9. Ensure Netlify's Production branch matches a branch that exists in Git.
+   If using main: git branch -M main && git push -u origin main
+10. Deploy.
+
+LOCAL DATA WARNING:
+Accounts and business data are stored in each browser profile on each device.
+There is no central admin across devices, cloud database, or automatic sync.
+Each new browser profile creates its own first local Super Admin.
+Download regular backups from Local Data & Backup.
